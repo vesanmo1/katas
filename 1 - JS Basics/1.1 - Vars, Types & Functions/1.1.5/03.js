@@ -4,7 +4,6 @@ const createCounter = () => {
   const counter = 5;
   return counter;
 };
-const printNumber = createCounter();
 
 // undefined
-console.log(printNumber);
+console.log(createCounter());
