@@ -2,11 +2,14 @@
 // sintaxis abreviada de las arrow functions
 
 // 👇🏻 Crea aquí tu función
+const multiplyArrow = (x, y) => {
+  return x * y;
+};
 
 // 👆🏻
 
-const value1 = multiply(1, 1);
-const value2 = multiply(2, 2);
+const value1 = multiplyArrow(1, 1);
+const value2 = multiplyArrow(2, 2);
 
 console.log(value1, value2);
 
