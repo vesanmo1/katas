@@ -3,9 +3,8 @@
 const createCounter = () => {
   const counter = 5;
   return counter;
-}
+};
+const printNumber = createCounter();
 
-createCounter();
-
-// ❓
-console.log(counter);
+// undefined
+console.log(printNumber);
