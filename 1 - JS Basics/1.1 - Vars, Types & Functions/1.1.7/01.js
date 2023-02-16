@@ -2,10 +2,12 @@
 
 // 👇🏻 Define aquí tu función
 const toUppercase = (text) => {
-  text.value = text.value.toUpperCase();
+  return text.toUpperCase();
 };
 
 // 👆🏻
 
-toUppercase("hola que tal"); // HOLA QUE TAL
-toUppercase("me llamo Carlos"); // ME LLAMO CARLOS
+const text1 = toUppercase("hola que tal"); // HOLA QUE TAL
+const text2 = toUppercase("me llamo Carlos"); // ME LLAMO CARLOS
+
+console.log(text1, text2);
